@@ -2,12 +2,11 @@
 {
     width: 600px;
     height: 200px;
-    background-color: black;
 }
 
 #header
 {
-    background-color: rgb(9, 163, 17);
+    background-color: rgb(255, 255, 255);
     width: 600px;
     height: 80px;
     text-align: center;
@@ -15,23 +14,33 @@
 
 #panel
 {
-background-color: rgb(255, 255, 255);
+background-color: rgb(226, 39, 39);
 width: 125px;
-height: 500px;
+height: 1300px;
 float: left;
+text-align: center;
 }
 
 #body
 {
     width: 600px;
-    height: 500px;
-    background-color: seagreen;
+    height: 1300px;
+    background-color: rgb(15, 221, 60);
+    text-align:center
+}
+
+h1 {
+    margin: 0px;
 }
 
 #footer
 {
     width: 600px;
-    height: 125px;
+    height: 100px;
     float: middle;
-    background-color: violet;
+    background-color: rgb(116, 114, 114);
+    text-align: center;
+}
+p{
+    margin: 0px 0px 10px 0px;
 }
